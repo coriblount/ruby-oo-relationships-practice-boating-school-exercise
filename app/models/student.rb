@@ -35,7 +35,7 @@ def grade_percentage
     test_passed = test.all.find do |test| test.student == "passed"
     number_of_test_passed = test_passed.to_f
     percent = (test_passed/number_of_test) * 100
-        binding.pry
+        #binding.pry
     end
 end
 
